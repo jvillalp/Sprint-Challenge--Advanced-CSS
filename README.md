@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website is tailor made userface for specfic device screens. It does not change in response to the dimentions of the page as it moves. 
+
+However, a responsive website uses CSS media quaries to change the size as the screen changes dimentions. This allows for a more user friendly experience. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first (max-width): Website designs for a mobile screen first and then used as template to scale up to a desktop website.
+
+Desktop first (min-width): Website is assumed to be viewed on desktop first so most of its content is here. It is then scaled down to mobile view. When the content is scaled down, it could be missing a lot of the content from the original desktop viewer. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This 'html' tag is used because 62.5% of the 16px is 10px. Which would mean 1.6rem = 16px. This basically makes the math easier for us when using rem and doing converstions. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing, specifically to CSS means being able to add different features like LESS, which allows us to use nesting & mixins. This makes our CSS and HTML slightly condence and easier for another developer to view and find what they are looking for in order to edit/add/omit as needed. Other preprocessors: SASS, Stylus, PostCSS
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is using the variables and be able to just go to the master 'variable.less' file and switching the color one time in order to change it throughout the entire LSS, where the specific "@" was used.
+
+The concept that gives me the most trouble are the 'mixins' because of all of the different parameters you can change. Once it is all set up, however, it is probably the most useful to me. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,7 +120,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
@@ -114,11 +130,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

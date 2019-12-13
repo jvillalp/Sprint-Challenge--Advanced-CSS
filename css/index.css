@@ -165,6 +165,7 @@ p {
 }
 .nav-bar {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 2%;
@@ -263,6 +264,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .home .walk .walk-text {
   width: 50%;
@@ -280,7 +282,7 @@ footer {
   color: white;
   text-algin: center;
   font-size: 20px;
-  width: 30%;
+  width: 29%;
 }
 .home .walk .walk-text .btn:hover {
   background: #F6F6F6;

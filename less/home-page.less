@@ -62,10 +62,11 @@
 
   .walk {
     margin-top: 60px;
-    border-top: 1px solid @main-border-color;
+    .border();
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    .center();
 
     .walk-text {
       width: 50%;
@@ -79,7 +80,7 @@
       }
 
       .btn {
-        .button(@btn-bg-color, @font-color, @width:30%);
+        .button(@btn-bg-color, @font-color, @width:29%);
 
       }
     }
