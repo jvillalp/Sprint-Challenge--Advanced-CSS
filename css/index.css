@@ -167,7 +167,7 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 1%;
+  padding-top: 2%;
   background: #F6F6F6;
 }
 .nav-bar nav {
@@ -232,6 +232,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  padding: 4%;
+  border-radius: 8px;
+  background: #22283A;
+  color: white;
+  text-algin: center;
+  font-size: 20px;
+  width: 100px;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F6F6F6;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
