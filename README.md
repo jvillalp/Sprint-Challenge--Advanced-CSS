@@ -46,7 +46,7 @@ Desktop first (min-width): Website is assumed to be viewed on desktop first so m
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-This 'html' tag is used because 62.5% of the 16px is 10px. Which would mean 1.6rem = 16px. This basically makes the math easier for us when using rem and doing converstions. 
+This 'html' tag is used because 62.5% of the 16px is 10px. Which would mean 1.6rem = 16px. This makes the math easier for us when using rem and doing converstions. 
 
 4. How would you describe preprocessing to someone new to CSS?
 
