@@ -1,15 +1,20 @@
 // Mixins Here
-.button(@btn-bg-color, @font-color){
+.button(@btn-bg-color, @font-color, @width:100%){
     padding: 4%;
     border-radius: 8px;
     background: @btn-bg-color;
     color: @font-color;
     text-algin: center;
     font-size: 20px;
-    width: 100px;
+    width: @width;
     &:hover{
         background:@wild-sand;
         color:@btn-bg-color;
+    }
+
+    @media @phone {
+        width: 100%;
+        text-align: center;
     }
 }
 
